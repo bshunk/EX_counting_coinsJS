@@ -9,7 +9,8 @@ console.log("ahoy mate!")
   //   pennies: 2
   // }
 var dollarAmountDOM = document.getElementById("dollarAmountDOM");
-
+var countBtnDOM = document.getElementById("countBtn");
+// countBtnDOM.target.addEventListener("click", countBtn);
 function coinCounter (money) {
   // Initialize a JavaScript object to hold the coins
   var coinPurse = {};
